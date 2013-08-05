@@ -10,7 +10,7 @@ require 'yajl'
 set :environment, :test
 set :run, false
 set :raise_errors, true
-set :logging, false
+set :logging, true
 
 Delayed::Worker.delay_jobs = false
 

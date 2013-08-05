@@ -21,11 +21,10 @@ production:
   sessions:
     default:
       hosts:
-        - hurley.member0.mongohq.com:10000
-        - hurley.member1.mongohq.com:10000
-      username: <%= ENV['MONGOHQ_USER'] %>
-      password: <%= ENV['MONGOHQ_PASS'] %>
-      database: app6929933
+        - mongodb.sokratik.com:10000
+      username: <%= ENV['MONGO_USER'] %>
+      password: <%= ENV['MONGO_PASS'] %>
+      database: sokratik
       options:
         skip_version_check: true
         safe: true

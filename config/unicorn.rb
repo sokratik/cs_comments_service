@@ -1,4 +1,7 @@
 worker_processes 4
 timeout 30
-preload_app true
+APP_PATH = "~/sokratik-code/cs_comments_service/"
+working_directory APP_PATH
+stderr_path "/var/log/discussion/unicorn.stderr.log"
+stdout_path "/var/log/discussion/unicorn.stderr.log"
 
