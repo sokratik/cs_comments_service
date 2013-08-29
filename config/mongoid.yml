@@ -24,7 +24,7 @@ production:
         - mongodb.sokratik.com:10000
       username: <%= ENV['MONGO_USER'] %>
       password: <%= ENV['MONGO_PASS'] %>
-      database: sokratik
+      database: sokratik_discussion
       options:
         skip_version_check: true
         safe: true
